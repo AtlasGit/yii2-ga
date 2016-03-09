@@ -1,0 +1,27 @@
+{
+	"name": "atlasmobile/yii2-google-analytics",
+	"description": "yii2 google analytics component",
+	"type": "yii2-extension",
+	"keywords": [
+		"yii2",
+		"extension",
+		"google-analytics"
+	],
+	"version": "1.0",
+	"license": "BSD-4-Clause",
+	"authors": [
+		{
+			"name": "Emin Ganbarov",
+			"email": "ganbarov.emin88@gmail.com"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*",
+		"google/apiclient": "1.*"
+	},
+	"autoload": {
+		"psr-4": {
+			"atlasmobile\\": "src/"
+		}
+	}
+}
