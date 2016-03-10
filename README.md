@@ -9,13 +9,13 @@ The preferred way to install this extension is through [composer](http://getcomp
 Either run
 
 ```
-php composer.phar require --prefer-dist atlasmobile/yii2-google-analytics "*"
+php composer.phar require --prefer-dist atlasmobile/yii2-ga "*"
 ```
 
 or add
 
 ```json
-"atlasmobile/yii2-google-analytics": "*"
+"atlasmobile/yii2-ga": "*"
 ```
 
 to the require section of your `composer.json` file.
