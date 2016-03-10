@@ -15,21 +15,21 @@ class Analytics extends Component
 {
 	/**
 	 * Начальная дата периода
-	 * @var string
+	 * @var null|string
 	 */
-	public $startDate = '';
+	public $startDate = null;
 
 	/**
 	 * Конечная дата периода
-	 * @var string
+	 * @var null|string
 	 */
-	public $endDate = '';
+	public $endDate = null;
 
 	/**
 	 * Тип получаемых данных
-	 * @var string
+	 * @var null|string
 	 */
-	public $dataType = '';
+	public $dataType = null;
 
 	/**
 	 * Параметры для запроса
