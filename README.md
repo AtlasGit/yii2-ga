@@ -43,8 +43,6 @@ Add the serviceAccountName (xxx@dxxx.gserviceaccount.com) as a new user to your 
 Usage
 -----
 
-Once the extension is installed, replace the contents of `backend/views/site/index.php` with the following:
-
 ```php
 
 use atlasmobile\analytics\Analytics;
