@@ -197,8 +197,12 @@ class Analytics extends Component
 
 		try {
 			$results = $connection->data_ga->get($analyticsId, $this->startDate, $this->endDate, $this->dataType, $optParams);
-			foreach ($results['rows'] as $result) {
-				$data[] = $result;
+			if (!isset($results['rows']) || is_null($results['rows'])) {
+				$data[] = 0;
+			} else {
+				foreach ($results['rows'] as $result) {
+					$data[] = $result;
+				}
 			}
 		} catch(Exception $e) {
 			throw new Exception('Error while fetching data from Google Analytics');
